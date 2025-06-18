@@ -67,7 +67,7 @@ if dark_mode:
     """, unsafe_allow_html=True)
 
 # Main UI
-st.title("🎨 Free AI Image Generator")
+st.title("🤖AI Image Generator")
 st.caption("Generate high-quality images with AI. Powered by Hugging Face ✨")
 
 prompt = st.text_input("📝 Your Prompt", placeholder="Describe the image you want...")
@@ -114,4 +114,4 @@ if st.button("🚀 Generate Image"):
 
 # Footer
 st.markdown("---")
-st.markdown("Made by ❤️ Siddiqa Badar")
+st.markdown("Made by ❤️ Siddiqa Badar a Frontend Developer")
