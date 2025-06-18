@@ -80,7 +80,7 @@ if st.button("🚀 Generate Image"):
     elif not prompt.strip():
         st.warning("⚠️ Please enter a valid prompt.")
     else:
-        with st.spinner("🎨 Generating image... Please wait..."):
+        with st.spinner("⌛ Generating image... Please wait..."):
             try:
                 payload = {
                     "inputs": prompt,
